@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-100 flex">
+
+   
+    <aside class="w-1/4 p-4 bg-white shadow-lg">
+        <button id="my-products-btn" class="bg-blue-500 text-white px-4 py-2 rounded w-full mb-4">My Products</button>
+        <div id="my-products" class="hidden flex flex-col gap-4"></div>
+    </aside>
+
+    
+    <main class="w-3/4 p-4">
+        <h1 class="text-2xl font-bold mb-4">Available Products</h1>
+        <div id="list" class="grid grid-cols-3 gap-4"></div>
+    </main>
+
+    <script src="./object.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
